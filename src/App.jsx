@@ -8,6 +8,7 @@ function App(space = 0) {
 
   const AddComments = () => {
     SetComments((PrevComments) => [...PrevComments, commentVal]);
+    setCommentVal("");
   }
 
   const UpVote = ()=>{
